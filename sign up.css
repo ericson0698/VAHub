@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f9f9f9;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 20px;
+}
+
+.logo {
+  width: 250px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.nav-buttons {
+  position: absolute;
+  top: 20px;
+  right: 10px;
+  display: flex;
+  gap: 0px;
+}
+
+.nav-btn {
+  background-color: transparent;
+  border: none;
+  color: #007bff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.main-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  flex-grow: 1;
+}
+
+.left-content {
+  margin-right: 40px;
+  text-align: left;
+}
+
+h1 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #333;
+}
+
+.slogan {
+  font-size: 16px;
+  color: #777;
+  margin: 10px 0;
+}
+
+.auth-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+button {
+  padding: 12px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  width: 200px;
+  margin-bottom: 20px;
+}
+
+.facebook-btn {
+  background-color: #3b5998;
+  color: white;
+}
+
+.email-btn {
+  background-color: #333;
+  color: white;
+}
+
+.email-input {
+  padding: 10px;
+  font-size: 16px;
+  width: 200px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: 500;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
