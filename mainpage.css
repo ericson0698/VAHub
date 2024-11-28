@@ -1,0 +1,134 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 100%;
+}
+
+/* Navbar Styles */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: none;
+}
+
+.navbar .logo {
+    width: 150px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    color: #007BFF;
+}
+
+/* Content Section Styles */
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Ensures content is spread out */
+    height: 75vh; /* Take up full height of the page */
+    padding: 40px 20px;
+}
+
+.content h1 {
+    font-size: 30px;
+    color: #333;
+    top: 30%;
+    position: absolute;
+    left: 500px; /* Adjust as needed for spacing */
+    margin-bottom: 10px;
+}
+.content h2 {
+    font-size: 16px;
+    color: #333;
+    top: 40%;
+    position: absolute;
+    left: 500px; /* Adjust as needed for spacing */
+    margin-bottom: 10px;
+}
+
+.content p {
+    text-align: center;
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.start-btn {
+    padding: 15px 50px;
+    background-color: #898b8d;
+    border: none;
+    top: 50%;
+    position: absolute;
+    left: 500px; /* Adjust as needed for spacing */
+    color: rgb(12, 8, 8);
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.start-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Image Placeholder */
+.image-placeholder {
+    width: 550px; /* Define the square dimensions */
+    height: 550px;
+    margin: 500; /* Remove default margin */
+    position: absolute;
+    right: 250px; /* Adjust as needed for spacing */
+    top: 40%; /* Center vertically */
+    transform: translateY(-50%); /* Correct vertical alignment */
+    background-color: #ddd; /* Optional: Add a background color if needed */
+}
+
+.image-placeholder img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Maintain aspect ratio and fill the square */
+}
+
+
+/* Partners Section Styles */
+.partners {
+    margin-top: 30%; /* Pushes this section to the bottom */
+    text-align: center;
+    width: 100%;
+    margin-bottom: 0; /* Remove any bottom margin */
+}
+
+.partner-logos {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px; /* Space between text and logos */
+}
+
+.partner-logos img {
+    width: 150px;
+    height: 80px;;
+}
