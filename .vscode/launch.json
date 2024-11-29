@@ -1,0 +1,49 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Open login.html",
+            "file": "d:\\VAHub\\VAHub\\login.html"
+        {
+            
+        }
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "verificationpage.html",
+            "file": "d:\\VAHub\\VAHub\\verificationpage.html"
+        }
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "mainpage.html",
+            "file": "d:\\VAHub\\VAHub\\mainpage.html"
+        }
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "about us.html",
+            "file": "d:\\VAHub\\VAHub\\about us.html"
+        }
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "help.html",
+            "file": "d:\\VAHub\\VAHub\\help.html"
+        }
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "course.html",
+            "file": "d:\\VAHub\\VAHub\\course.html"
+        }
+  
+    }
+    ]
+}
