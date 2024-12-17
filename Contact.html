@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="Contact.css">
+</head>
+<body>
+  <nav class="navbar">
+    <img src="images/logo.png" alt="VA Hub Logo" class="logo">
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="course.html">Courses</a>
+      <a href="about us.html">About Us</a>
+      <a href="help.html">Help</a>
+      <a href="contact.html" class="active">Contact Us</a>
+    </div>
+  </nav>
+
+  <section class="contact-section">
+    <h1>Contact Us</h1>
+    <p>We're here to help! Reach out to us via the form below or chat with our virtual assistant.</p>
+
+    <form class="contact-form">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="5" placeholder="Type your message here" required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+
+    <div class="chatbot-container">
+      <h2>Chat with Us</h2>
+      <div id="chat-window">
+        <div id="messages"></div>
+      </div>
+      <div class="chat-input">
+        <input type="text" id="user-input" placeholder="Type a message...">
+        <button id="send-btn">Send</button>
+      </div>
+    </div>
+  </section>
+
+  <script src="chatbot.js"></script>
+</body>
+</html>

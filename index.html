@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VA Hub</title>
+    <link rel="stylesheet" href="mainpage.css">
+</head>
+<body>
+
+  
+    <div class="navbar">
+        <img src="images/logo.png" alt="VA Hub Logo" class="logo">
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="course.html">Courses</a>
+            <a href="about us.html" class="active">About Us</a>
+            <a href="help.html">Help</a>
+            <a href="contact.html" class="active">Contact Us</a>
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="intro-text">
+            <h1>Hello, User!</h1>
+            <h2>What skill set should we learn today?</h2>
+            <button class="start-btn">Start</button>
+        </div>
+
+        <div class="image-placeholder">
+            <img src="images/logo.png" alt="logo">
+        </div>
+
+
+<div class="testimonials">
+    <h2>What Our Users Say</h2>
+    <div class="testimonial-card">
+        <p>"VA Hub helped me find the right course to jumpstart my career as a virtual assistant. Highly recommend!"</p>
+        <p>- John Doe</p>
+    </div>
+    <div class="testimonial-card">
+        <p>"The courses are easy to follow, and the support team is amazing. I'm now confident in my skills!"</p>
+        <p>- Jane Smith</p>
+    </div>
+    <div class="testimonial-card">
+        <p>"I loved the structured learning path and the practical knowledge shared. It was exactly what I needed to grow my career."</p>
+        <p>- Sarah Lee</p>
+    </div>
+</div>
+
+<div class="featured-courses">
+    <h2>Featured Courses</h2>
+    <div class="course-card">
+        <img src="images/email-management.jpg" alt="Email Management">
+        <div class="course-info">
+            <h3>Email Management</h3>
+            <p>Learn how to efficiently manage email communication for clients and organizations.</p>
+            <button class="course-btn">Learn More</button>
+        </div>
+    </div>
+    <div class="course-card">
+        <img src="images/customer-support.jpg" alt="Customer Support">
+        <div class="course-info">
+            <h3>Customer Support</h3>
+            <p>Master the skills required to provide top-notch customer service and support.</p>
+            <button class="course-btn">Learn More</button>
+        </div>
+    </div>
+    <div class="course-card">
+        <img src="images/graphic-design.jpg" alt="Graphic Design">
+        <div class="course-info">
+            <h3>Graphic Design</h3>
+            <p>Get hands-on experience in creating visual content for brands and social media.</p>
+            <button class="course-btn">Learn More</button>
+        </div>
+    </div>
+</div>
+
+<div class="faq-container">
+    <h2>Frequently Asked Questions</h2>
+    <div class="faq-item">
+        <div class="faq-question" onclick="toggleAnswer(this)">
+            <h3>What is VA Hub?</h3>
+        </div>
+        <div class="faq-answer">
+            <p>VA Hub is a platform designed to provide affordable and accessible skill development courses for individuals looking to improve their career prospects, especially as virtual assistants.</p>
+        </div>
+    </div>
+
+    <div class="faq-item">
+        <div class="faq-question" onclick="toggleAnswer(this)">
+            <h3>How do I sign up?</h3>
+        </div>
+        <div class="faq-answer">
+            <p>Click on the "Sign Up" button on the homepage, fill in your details, and follow the instructions to create your account.</p>
+        </div>
+    </div>
+
+    <div class="faq-item">
+        <div class="faq-question" onclick="toggleAnswer(this)">
+            <h3>What courses are available?</h3>
+        </div>
+        <div class="faq-answer">
+            <p>We offer a wide range of courses, including email management, customer support, and graphic design. Please visit our Courses page for a full list.</p>
+        </div>
+    </div>
+
+    <div class="faq-item">
+        <div class="faq-question" onclick="toggleAnswer(this)">
+            <h3>Can I access the courses for free?</h3>
+        </div>
+        <div class="faq-answer">
+            <p>Some courses are available for free, while others may require a small fee. We strive to keep our content affordable for everyone.</p>
+        </div>
+    </div>
+</div>
+
+
+<div class="contact-form-container">
+    <h2>Contact Us</h2>
+    <form action="#" method="POST" id="contact-form">
+        <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required placeholder="Your Name">
+        </div>
+
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required placeholder="Your Email">
+        </div>
+
+        <div class="form-group">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required placeholder="Your Message"></textarea>
+        </div>
+
+        <div class="form-group">
+            <button type="submit" class="submit-btn">Send Message</button>
+        </div>
+    </form>
+</div>
+<div class="chat-widget">
+    <div class="chat-header">
+      <p>Chat with us</p>
+      <button id="toggle-chat" class="toggle-btn">⤢</button>
+    </div>
+    <div class="chat-body">
+      <div class="chat-message received">Hello! How can I assist you today?</div>
+    </div>
+    <div class="chat-footer">
+      <input type="text" id="chat-input" placeholder="Type a message..." />
+      <button id="send-btn" class="send-btn">➤</button>
+    </div>
+  </div>  
+
+  <div class="partners">
+    <p>Our Trusted Partners</p>
+    <div class="partner-logos">
+        <a href="https://trello.com/" target="_blank" rel="noopener">
+            <img src="images/trello-logo.png" alt="Trello">
+        </a>
+        <a href="https://zoom.us/" target="_blank" rel="noopener">
+            <img src="images/zoom-logo.png" alt="Zoom">
+        </a>
+        <a href="https://hootsuite.com/" target="_blank" rel="noopener">
+            <img src="images/hootsuite-logo.png" alt="Hootsuite">
+        </a>
+        <a href="https://www.canva.com/" target="_blank" rel="noopener">
+            <img src="images/canva-logo.png" alt="Canva">
+        </a>
+        <a href="https://www.upwork.com/" target="_blank" rel="noopener">
+            <img src="images/upwork-logo.png" alt="Upwork">
+        </a>
+        <a href="https://www.hubspot.com/" target="_blank" rel="noopener">
+            <img src="images/hubspot-logo.png" alt="HubSpot">
+        </a>
+    </div>
+</div>
+
+
+    </div>
+
+</body>
+</html>
