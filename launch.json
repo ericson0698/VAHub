@@ -1,0 +1,47 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Open login.html",
+            "file": "d:\\VAHub\\VAHub\\login.html"
+        },
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "verificationpage.html",
+            "file": "d:\\VAHub\\VAHub\\verificationpage.html"
+        },
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "index.html",
+            "file": "d:\\VAHub\\VAHub\\index.html"
+        },
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "about us.html",
+            "file": "d:\\VAHub\\VAHub\\about us.html"
+        },
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "help.html",
+            "file": "d:\\VAHub\\VAHub\\help.html"
+        },
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "course.html",
+            "file": "d:\\VAHub\\VAHub\\course.html"
+        },
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Contact.html",
+            "file": "d:\\VAHub\\VAHub\\Contact.html"
+        },
+    ]
+}

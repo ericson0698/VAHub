@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "925636357691",
+    "project_id": "chartph-e5961",
+    "storage_bucket": "chartph-e5961.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:925636357691:android:660b61422ea7c18b5bf61e",
+        "android_client_info": {
+          "package_name": "com.example.chartph"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "925636357691-cosa88ou4jicg81j25oiqi2djbvt6knb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAiqlJlDr86bknCF9_KG62WA0ucuzNlg8Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "925636357691-cosa88ou4jicg81j25oiqi2djbvt6knb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
